@@ -1,3 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  color: #626262;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+a {
+  color: #626262;
+}
+
+h1.pageTitle {
+  color: #d8c8ae;
+}
+hr {
+  width: 5%;
+  color: #d8c8ae;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +28,21 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.leftContents {
+  width: 500px;
+  position: fixed;
+}
+
+.rightContents {
+  flex: 1;
+  margin: 3rem 0 0 500px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,0 +1,23 @@
+.profile {
+  margin-top: 5rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.profile_contents {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.profile_contents h1 {
+  font-size: 1.5rem;
+}
+
+.profile_contents h1 span {
+  color: #dcbdaf;
+}
+
+.profile_contents p {
+  font-size: 0.9rem;
+}
+/*# sourceMappingURL=Home.css.map */
