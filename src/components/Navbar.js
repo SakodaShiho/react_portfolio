@@ -1,19 +1,52 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../css/Navbar.css";
 
 export const Navbar = () => {
+  const current = {
+    "border-bottom": "solid 1px",
+    color: "#d8c8ae",
+  };
+
   return (
     <div>
       <div class="wrap">
         <div class="block-title">
           <div class="title-1">
-            <Link to="/">HOME</Link>
-            <Link to="/Work">WORK</Link>
+            <NavLink
+              exact
+              to="/"
+              activeStyle={current}
+              className="hover_action"
+            >
+              HOME
+            </NavLink>
+            <NavLink
+              exact
+              to="/Work"
+              activeStyle={current}
+              className="hover_action"
+            >
+              WORK
+            </NavLink>
           </div>
           <div class="title-1">
-            <Link to="/Skills">SKILLS</Link>
-            <Link to="/Carrier">CARRIER</Link>
+            <NavLink
+              exact
+              to="/Skills"
+              activeStyle={current}
+              className="hover_action"
+            >
+              SKILLS
+            </NavLink>
+            <NavLink
+              exact
+              to="/Carrier"
+              activeStyle={current}
+              className="hover_action"
+            >
+              CARRIER
+            </NavLink>
           </div>
         </div>
         <div class="block style-1"></div>

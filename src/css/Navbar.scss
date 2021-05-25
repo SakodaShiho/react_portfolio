@@ -119,3 +119,25 @@ $yellow: #ecd6a5;
   );
   background-size: 8px 100%;
 }
+
+.hover_action {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.hover_action::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #333;
+  transform: scale(0, 1);
+  transform-origin: center top;
+  transition: transform 0.3s;
+  color: #d8c8ae;
+}
+.hover_action:hover::after {
+  transform: scale(1, 1);
+}
