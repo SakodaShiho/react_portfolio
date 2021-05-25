@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../css/Home.css";
 import mainHeader from "../img/top_image.png";
 import profileImage from "../img/profile.jpg";
@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Home = () => {
   const iconStyle = { padding: 10, fontSize: 40 };
+  const [qiitaFaviconSrc, setQiitaFaviconSrc] = useState(qiitaFavicon);
 
   return (
     <div>
@@ -59,8 +60,10 @@ export const Home = () => {
             className="btn qiita"
             href="https://github.com/SakodaShiho"
             target="blank_"
+            onMouseOver={() => setQiitaFaviconSrc(qiitaFaviconHover)}
+            onMouseOut={() => setQiitaFaviconSrc(qiitaFavicon)}
           >
-            <img src={qiitaFavicon} className="fa fa-qiita" />
+            <img src={qiitaFaviconSrc} className="fa fa-qiita" />
           </a>
         </div>
       </div>
