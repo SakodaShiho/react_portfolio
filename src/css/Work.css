@@ -1,0 +1,24 @@
+.tabs {
+  margin-top: 3rem;
+  padding: 0 10%;
+}
+
+.tabs .MuiPaper-elevation1 {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-bottom: 1px solid #d8c8ae;
+}
+
+.tabs .MuiTab-textColorSecondary.Mui-selected {
+  color: #dcbdaf;
+}
+
+.tabs .PrivateTabIndicator-colorSecondary-4 {
+  background-color: #dcbdaf;
+}
+
+.tabs .MuiBox-root-7 {
+  padding: 30px 0;
+  text-align: left;
+}
+/*# sourceMappingURL=Work.css.map */

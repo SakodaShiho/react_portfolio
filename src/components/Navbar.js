@@ -41,11 +41,11 @@ export const Navbar = () => {
             </NavLink>
             <NavLink
               exact
-              to="/Carrier"
+              to="/Career"
               activeStyle={current}
               className="hover_action"
             >
-              CARRIER
+              CAREER
             </NavLink>
           </div>
         </div>

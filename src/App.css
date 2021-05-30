@@ -6,7 +6,9 @@ body {
 }
 
 p {
-  font-size: 0.9rem;
+  font-size: 0.83rem;
+  line-height: 22px;
+  margin: 0;
 }
 
 a {

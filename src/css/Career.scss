@@ -1,0 +1,49 @@
+.career_container {
+  margin: 2rem 0;
+}
+
+.card {
+  background-color: #fff;
+  width: 80%;
+  height: auto;
+  padding: 2rem;
+  margin: 2rem auto;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.5);
+  opacity: 0.99;
+  display: flex;
+
+  .career_left {
+    align-items: center;
+    img {
+      width: 100px;
+    }
+  }
+  .career_right {
+    text-align: left;
+    margin-left: 3rem;
+    hr.career_hr {
+      margin: 1.5rem 0;
+      width: 80%;
+      height: 1px;
+      background-color: #ced1d9;
+      border: 0;
+    }
+    .bold {
+      font-size: 1rem;
+      font-weight: 900;
+      background: linear-gradient(transparent 70%, #ecd6a5 0%);
+      width: auto;
+    }
+    .bold2 {
+      font-weight: 600;
+      font-size: 0.83rem;
+    }
+    p {
+      margin-top: 0.5rem;
+    }
+  }
+}
