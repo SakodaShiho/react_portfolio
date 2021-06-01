@@ -1,18 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
+import { MyGallery } from "./MyGallery";
 import Paper from "@material-ui/core/Paper";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
-import PhoneIcon from "@material-ui/icons/Phone";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import PersonPinIcon from "@material-ui/icons/PersonPin";
+import WebIcon from "@material-ui/icons/Web";
+import CreateIcon from "@material-ui/icons/Create";
+import Portfolio1 from "../img/portfolio-image.jpg";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
-
   return (
     <div
       role="tabpanel"
@@ -20,6 +20,7 @@ function TabPanel(props) {
       id={`simple-tabpanel-${index}`}
       aria-labelledby={`simple-tab-${index}`}
       {...other}
+      className="cording"
     >
       {value === index && (
         <Box p={2}>
@@ -62,15 +63,22 @@ export const SimpleTabs = () => {
           textColor="secondary"
           aria-label="icon label tabs example"
         >
-          <Tab icon={<PhoneIcon />} label="RECENTS" />
-          <Tab icon={<FavoriteIcon />} label="FAVORITES" />
+          <Tab icon={<WebIcon />} label="CORDING" />
+          <Tab icon={<CreateIcon />} label="DESIGN" />
         </Tabs>
       </Paper>
       <TabPanel value={value} index={0}>
-        Item One
+        <div className="cording_item">
+          <div className="cording_item_left">
+            <img src={Portfolio1} />
+          </div>
+          <div className="cording_item_right">
+            <p>text</p>
+          </div>
+        </div>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
+        <MyGallery />
       </TabPanel>
     </div>
   );

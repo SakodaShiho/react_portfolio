@@ -16,7 +16,7 @@ a {
 }
 
 h1.pageTitle {
-  color: #d8c8ae;
+  color: #dcbdaf;
 }
 hr {
   width: 5%;
@@ -44,6 +44,20 @@ hr {
 .rightContents {
   flex: 1;
   margin: 3rem 0 0 500px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+  }
+  .leftContents {
+    width: 100%;
+    position: static;
+  }
+  .rightContents {
+    width: 90%;
+    margin: 5rem auto;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -44,6 +44,7 @@ $yellow: #ecd6a5;
 .title-1 {
   font-size: 1.5rem;
   padding: 1.5rem 0;
+  color: #dcbdaf;
   a {
     text-decoration: none;
   }
@@ -52,13 +53,11 @@ $yellow: #ecd6a5;
   background: $gray-darker;
 }
 .style-2 {
-  //opting for classic css triangles technique here rather than backgrounds, just because
   width: 0;
   height: 0;
   border: 62px solid $gray-lighter;
   border-top-color: $gray-dark;
   border-bottom-color: $gray-dark;
-  //to account for a pixel-rounding annoyance:
   background: $gray-dark;
   padding-top: 1px;
 }
@@ -132,12 +131,48 @@ $yellow: #ecd6a5;
   content: "";
   width: 100%;
   height: 1px;
-  background: #d8c8ae;
+  background: #dcbdaf;
   transform: scale(0, 1);
   transform-origin: center top;
   transition: transform 0.3s;
-  color: #d8c8ae;
+  color: #dcbdaf;
 }
 .hover_action:hover::after {
   transform: scale(1, 1);
+}
+.sp_block {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .wrap {
+    transform: translateY(0);
+    margin: 0;
+    width: 100vw;
+    height: 58vh;
+  }
+  .block-title {
+    padding: 1rem 3rem;
+    flex-direction: row;
+    background: #fff;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    transition: padding 0.3s linear;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    > div {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .title-1 {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    a {
+      margin: 0 1rem;
+    }
+  }
 }

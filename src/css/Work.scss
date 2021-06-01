@@ -1,6 +1,6 @@
 .tabs {
   margin-top: 3rem;
-  padding: 0 10%;
+  padding: 0 8%;
   .MuiPaper-elevation1 {
     box-shadow: none;
     border-bottom: 1px solid #d8c8ae;
@@ -12,8 +12,39 @@
   .PrivateTabIndicator-colorSecondary-4 {
     background-color: #dcbdaf;
   }
-  .MuiBox-root-7 {
-    padding: 30px 0;
+  .MuiBox-root {
+    padding: 3rem 0;
     text-align: left;
+  }
+  img {
+    transition: all 0.5s ease;
+  }
+  img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+  }
+
+  .cording {
+    .cording_item {
+      display: flex;
+      .cording_item_left {
+        width: 40%;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    .cording_item_right {
+      text-align: left;
+      margin-left: 2rem;
+      width: 60%;
+    }
+  }
+
+  .design img {
+    width: 230px;
+    border-radius: 10px;
+    margin: 0.2rem;
   }
 }
