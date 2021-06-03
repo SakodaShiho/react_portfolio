@@ -10,6 +10,7 @@ import Box from "@material-ui/core/Box";
 import WebIcon from "@material-ui/icons/Web";
 import CreateIcon from "@material-ui/icons/Create";
 import { MyCording } from "./MyCording";
+import "../css/Work.css";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
