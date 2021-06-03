@@ -10,9 +10,12 @@
 }
 
 .tabs .MuiTab-textColorSecondary.Mui-selected,
-.tabs .MuiTabs-indicator,
-.tabs .jss4 {
+.tabs .MuiTabs-indicator {
   color: #dcbdaf !important;
+}
+
+.tabs .jss4 {
+  background-color: #dcbdaf;
 }
 
 .tabs .PrivateTabIndicator-colorSecondary-4 {
