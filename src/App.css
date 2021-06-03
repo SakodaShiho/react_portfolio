@@ -45,6 +45,9 @@ hr {
   flex: 1;
   margin: 3rem 0 0 500px;
 }
+.sp {
+  display: none;
+}
 
 @media screen and (max-width: 768px) {
   .container {
@@ -56,7 +59,10 @@ hr {
   }
   .rightContents {
     width: 90%;
-    margin: 5rem auto;
+    margin: 3rem auto 5rem;
+  }
+  .sp {
+    display: block;
   }
 }
 

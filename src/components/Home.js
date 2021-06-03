@@ -34,7 +34,7 @@ export const Home = () => {
       <div className="sns">
         <div className="social-btns">
           <a
-            class="btn twitter"
+            className="btn twitter"
             href="https://twitter.com/shi_design_"
             target="blank_"
           >
@@ -45,7 +45,7 @@ export const Home = () => {
             />
           </a>
           <a
-            class="btn github"
+            className="btn github"
             href="https://github.com/SakodaShiho"
             target="blank_"
           >

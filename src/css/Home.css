@@ -133,4 +133,10 @@
   font-size: 25px;
   vertical-align: middle;
 }
+
+@media screen and (max-width: 768px) {
+  .home_contents img {
+    width: 80%;
+  }
+}
 /*# sourceMappingURL=Home.css.map */

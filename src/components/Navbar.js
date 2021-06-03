@@ -4,7 +4,7 @@ import "../css/Navbar.css";
 
 export const Navbar = () => {
   const current = {
-    "border-bottom": "solid 1px",
+    borderBottom: "solid 1px",
     color: "#dcbdaf",
   };
 
@@ -69,6 +69,7 @@ export const Navbar = () => {
         <div className="block style-11"></div>
         <div className="block style-7"></div>
         <div className="block style-2"></div>
+        <div className="block style-4"></div>
         <div className="block-13"></div>
       </div>
     </div>

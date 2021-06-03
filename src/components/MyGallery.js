@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "photoswipe/dist/photoswipe.css";
 import "photoswipe/dist/default-skin/default-skin.css";
 import { Gallery, Item } from "react-photoswipe-gallery";
@@ -9,7 +9,7 @@ import Design3 from "../img/design/design3.png";
 
 export const MyGallery = () => {
   return (
-    <div className="design">
+    <em className="design">
       <Gallery>
         <StackGrid columnWidth={250} monitorImagesLoaded={true}>
           <Item
@@ -44,6 +44,6 @@ export const MyGallery = () => {
           </Item>
         </StackGrid>
       </Gallery>
-    </div>
+    </em>
   );
 };

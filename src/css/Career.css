@@ -8,9 +8,6 @@
   height: auto;
   padding: 2rem;
   margin: 2rem auto;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
   border-radius: 15px;
   -webkit-box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.5);
           box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.5);
@@ -58,5 +55,54 @@
 
 .card .career_right p {
   margin-top: 0.5rem;
+}
+
+.card .career_right h2 {
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 85%;
+    display: block;
+    height: auto;
+    padding: 1.5rem;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.5);
+    opacity: 0.99;
+  }
+  .card .career_right {
+    margin-left: 0;
+  }
+  .card .career_right hr.career_hr {
+    margin: 1.5rem 0;
+    width: 80%;
+    height: 1px;
+    background-color: #ced1d9;
+    border: 0;
+  }
+  .card .career_right .bold {
+    font-size: 1rem;
+    font-weight: 900;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(0%, #ecd6a5));
+    background: linear-gradient(transparent 70%, #ecd6a5 0%);
+    width: auto;
+  }
+  .card .career_right .bold2 {
+    font-weight: 600;
+    font-size: 0.83rem;
+  }
+  .card .career_right p {
+    margin-top: 0.5rem;
+  }
+  .card .career_right h2 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .card .career_right hr.career_hr {
+    margin: 1.5rem auto;
+  }
 }
 /*# sourceMappingURL=Career.css.map */

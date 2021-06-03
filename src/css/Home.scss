@@ -131,3 +131,11 @@
   left: 0;
   right: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .home_contents {
+    img {
+      width: 80%;
+    }
+  }
+}

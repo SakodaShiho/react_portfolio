@@ -19,7 +19,11 @@ export const Career = (props) => {
           </div>
 
           <div className="career_right">
-            <h2>2021年3月～　WEB制作会社でアルバイト</h2>
+            <h2>
+              2021年3月～　
+              <br className="sp" />
+              WEB制作会社でアルバイト
+            </h2>
             <hr className="career_hr" />
             <p>
               関東に引っ越し、少しでもWEB業界のことを知るため、WEB制作会社でアルバイトを開始。
@@ -44,7 +48,11 @@ export const Career = (props) => {
           </div>
 
           <div className="career_right">
-            <h2>2016年3月～2021年3月　ブライダル企業に就職</h2>
+            <h2>
+              2016年3月～2021年3月　
+              <br className="sp" />
+              ブライダル企業に就職
+            </h2>
             <hr className="career_hr" />
             <span className="bold">◆2016年3月〜2017年3月</span>
             <p>
@@ -58,7 +66,7 @@ export const Career = (props) => {
             <p>本社に異動し、社内の業務見直しを担当。</p>
             <br />
             <br />
-            <span class="bold2">・社内のマニュアル整備</span>
+            <span className="bold2">・社内のマニュアル整備</span>
             <p>
               社内の全作業のマニュアルを作成し、必ずマニュアルを見て作業するよう徹底
               <br />
@@ -66,7 +74,7 @@ export const Career = (props) => {
             </p>
             <br />
             <br />
-            <span class="bold2">
+            <span className="bold2">
               ・提携式場/取引先とのポータルサイトを、ウェブサイトビルダーを用いて制作
             </span>
             <p>
@@ -74,18 +82,23 @@ export const Career = (props) => {
             </p>
             <br />
             <br />
-            <span class="bold2">・RPA(Robotic Process</span>
-            <p>
+            <span className="bold2">
+              ・RPA(Robotic Process
               Automation)を導入、開発し、社内のルーチン業務をRPA化
-              <br />
-              これにより、週40時間程度の人件費削減に成功。
-              <br />
-              <br />
+            </span>
+            <p>これにより、週40時間程度の人件費削減に成功。</p>
+            <br />
+            <br />
+
+            <span className="bold2">
               ・社内ポータルサイトや自社の企業サイトの作成などを、ウェブサイトビルダーを用いて制作
-              <br />
-              <br />
+            </span>
+            <br />
+            <br />
+            <span className="bold2">
               ・Shopifyを使用したWEBカタログを作成し、新郎新婦が見る紙媒体のギフトカタログを廃止
-              <br />
+            </span>
+            <p>
               これによりお客様が見る用のギフトカタログのセッティング作業が不要となり、人件費の削減に成功。
               <br />
               また新郎新婦への負担も軽減され、紙カタログがないメーカーとの新しい取引も可能になったため、取扱い可能商品が大幅に増加。お客様に大変好評となり、ギフト売上の増加にも繋がった。
@@ -97,24 +110,34 @@ export const Career = (props) => {
               これまでBtoBだった自社の取扱い商品をBtoCへ移行するべく、ECサイト開発を開始。
               <br />
               エンジニアの方とチームになり約2年間開発に携わる。
-              <br />
-              <br />
+            </p>
+            <br />
+            <br />
+            <span className="bold2">
               ・Adobe XDを使用して、UI提案・プロトタイプ作成
+              <br />
               <br />
               ・Adobe illustratorを使用して、サイト内の特集画像などを作成
               <br />
+              <br />
               ・商品写真を自社で撮影、Adobe Photoshopを使用して画像編集
+              <br />
               <br />
               ・GoogleアナリティクスやGoogleサーチコンソールを用いたマーケティング
               <br />
+              <br />
               ・インスタグラム、Twitterを使用したSNSマーケティング
               <br />
+              <br />
               ・新規取引先開拓、営業 その他、 ・司会演者派遣会社/美容院経営会社
-              <br />
+            </span>
+            <p>
               2社のコンサルティングに入り、社内ポータルサイトや公式サイトの制作、SNS運用を担当
-              <br />
-              ・上記2社コンサル先の業務フロー見直しや、PL(損益)管理を行う
             </p>
+            <br />
+            <span className="bold2">
+              ・上記2社コンサル先の業務フロー見直しや、PL(損益)管理を行う
+            </span>
             <br />
             <br />
             <span className="bold">◆2020年10月～</span>
@@ -138,10 +161,14 @@ export const Career = (props) => {
           </div>
 
           <div className="career_right">
-            <h2>2015年4月～2016年3月　歯科医院へ就職</h2>
+            <h2>
+              2015年4月～2016年3月　
+              <br className="sp" />
+              歯科医院へ就職
+            </h2>
             <hr className="career_hr" />
             <p>
-              兵庫県西宮市の歯科医院で、歯科助手として入社
+              兵庫県西宮市の歯科医院で、歯科助手として入社。
               <br />
               約1年間歯学について学びながら、ブライダル業界への転職活動を行う。
             </p>
@@ -154,7 +181,11 @@ export const Career = (props) => {
           </div>
 
           <div className="career_right">
-            <h2>～2015年3月 短期大学卒業</h2>
+            <h2>
+              ～2015年3月　
+              <br className="sp" />
+              短期大学卒業
+            </h2>
             <hr className="career_hr" />
             <p>
               2013年4月に大手前短期大学

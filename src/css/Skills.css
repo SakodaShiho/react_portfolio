@@ -10,4 +10,20 @@
 .skillbar-bar {
   left: 120px;
 }
+
+@media screen and (max-width: 768px) {
+  .skill_bar {
+    width: 100%;
+    margin: 3rem auto;
+  }
+  .skillbar-title {
+    width: 100px;
+  }
+  .skillbar-title span {
+    padding: 0 5px;
+  }
+  .skillbar-bar {
+    left: 100px;
+  }
+}
 /*# sourceMappingURL=Skills.css.map */

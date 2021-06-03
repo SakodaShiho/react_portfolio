@@ -9,7 +9,7 @@ import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import WebIcon from "@material-ui/icons/Web";
 import CreateIcon from "@material-ui/icons/Create";
-import Portfolio1 from "../img/portfolio-image.jpg";
+import { MyCording } from "./MyCording";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -62,20 +62,14 @@ export const SimpleTabs = () => {
           indicatorColor="secondary"
           textColor="secondary"
           aria-label="icon label tabs example"
+          component="div"
         >
           <Tab icon={<WebIcon />} label="CORDING" />
           <Tab icon={<CreateIcon />} label="DESIGN" />
         </Tabs>
       </Paper>
       <TabPanel value={value} index={0}>
-        <div className="cording_item">
-          <div className="cording_item_left">
-            <img src={Portfolio1} />
-          </div>
-          <div className="cording_item_right">
-            <p>text</p>
-          </div>
-        </div>
+        <MyCording />
       </TabPanel>
       <TabPanel value={value} index={1}>
         <MyGallery />

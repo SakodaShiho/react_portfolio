@@ -1,6 +1,7 @@
 .tabs {
   margin-top: 3rem;
   padding: 0 8%;
+
   .MuiPaper-elevation1 {
     box-shadow: none;
     border-bottom: 1px solid #d8c8ae;
@@ -28,6 +29,9 @@
   .cording {
     .cording_item {
       display: flex;
+      padding: 2rem;
+      border-bottom: 1px solid #ced1d9;
+
       .cording_item_left {
         width: 40%;
       }
@@ -39,6 +43,25 @@
       text-align: left;
       margin-left: 2rem;
       width: 60%;
+      .MuiButton-containedPrimary {
+        width: 70%;
+        height: 3rem;
+        margin: 2rem 15%;
+        border-radius: 50px;
+        background-image: linear-gradient(
+          -20deg,
+          #ddd6f3 0%,
+          #faaca8 100%,
+          #faaca8 100%
+        );
+      }
+    }
+    .bold {
+      font-size: 1rem;
+      font-weight: 900;
+      background: linear-gradient(transparent 70%, #ecd6a5 0%);
+      width: auto;
+      letter-spacing: 1.5px;
     }
   }
 
@@ -46,5 +69,35 @@
     width: 230px;
     border-radius: 10px;
     margin: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tabs {
+    width: 100%;
+    padding: 0;
+
+    .MuiBox-root {
+      padding: 1.5rem 0;
+      text-align: left;
+    }
+    .cording {
+      .cording_item {
+        display: block;
+        padding: 0.5rem;
+
+        .cording_item_left {
+          width: 100%;
+        }
+        img {
+          width: 100%;
+        }
+      }
+      .cording_item_right {
+        text-align: left;
+        margin-left: 0;
+        width: auto;
+      }
+    }
   }
 }

@@ -17,8 +17,8 @@ $yellow: #ecd6a5;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   color: "000";
-  margin: 50vh 0 0 0.5rem;
-  transform: translateY(-50%);
+  margin: 50vh 0;
+  transform: translateY(-45%);
 }
 .block {
   width: 125px;
@@ -148,7 +148,7 @@ $yellow: #ecd6a5;
     transform: translateY(0);
     margin: 0;
     width: 100vw;
-    height: 58vh;
+    height: 375px;
   }
   .block-title {
     padding: 1rem 3rem;
