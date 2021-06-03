@@ -9,7 +9,8 @@
   border-bottom: 1px solid #d8c8ae;
 }
 
-.tabs .MuiTab-textColorSecondary.Mui-selected {
+.tabs .MuiTab-textColorSecondary.Mui-selected,
+.tabs .MuiTabs-indicator {
   color: #dcbdaf !important;
 }
 
