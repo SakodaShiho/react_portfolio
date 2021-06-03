@@ -10,7 +10,8 @@
 }
 
 .tabs .MuiTab-textColorSecondary.Mui-selected,
-.tabs .MuiTabs-indicator {
+.tabs .MuiTabs-indicator,
+.tabs .jss4 {
   color: #dcbdaf !important;
 }
 
