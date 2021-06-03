@@ -1,11 +1,11 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
 import "../css/Work.css";
-import Portfolio1 from "../img/portfolio-image.jpg";
-import Portfolio2 from "../img/082com.jpg";
-import Portfolio3 from "../img/mimamoru-image.png";
-import Portfolio4 from "../img/botani-image.jpg";
-import Portfolio5 from "../img/movie-image.jpg";
+// import Portfolio1 from "../img/portfolio-image.jpg";
+// import Portfolio2 from "../img/082com.jpg";
+// import Portfolio3 from "../img/mimamoru-image.png";
+// import Portfolio4 from "../img/botani-image.jpg";
+// import Portfolio5 from "../img/movie-image.jpg";
 
 export const MyCording = () => {
   return (
@@ -13,7 +13,7 @@ export const MyCording = () => {
       <div className="cording_item">
         <div className="cording_item_left">
           <a href="https://sakoshiho.herokuapp.com/" target="_blank">
-            <img src={Portfolio1} />
+            <img src={`${process.env.PUBLIC_URL}/img/portfolio-image.jpg`} />
           </a>
         </div>
         <div className="cording_item_right">
@@ -46,7 +46,7 @@ export const MyCording = () => {
       <div className="cording_item">
         <div className="cording_item_left">
           <a href="https://oyatsu.herokuapp.com/" target="_blank">
-            <img src={Portfolio2} />
+            {/* <img src={Portfolio2} /> */}
           </a>
         </div>
         <div className="cording_item_right">
@@ -81,7 +81,7 @@ export const MyCording = () => {
             href="https://xd.adobe.com/view/8cba5861-c14a-4343-871b-46e6162b6f2a-d9e9/"
             target="_blank"
           >
-            <img src={Portfolio3} />
+            {/* <img src={Portfolio3} /> */}
           </a>
         </div>
         <div className="cording_item_right">
@@ -111,7 +111,7 @@ export const MyCording = () => {
       <div className="cording_item">
         <div className="cording_item_left">
           <a href="https://bo-ta-ni.herokuapp.com/" target="_blank">
-            <img src={Portfolio4} />
+            {/* <img src={Portfolio4} /> */}
           </a>
         </div>
         <div className="cording_item_right">
@@ -141,7 +141,7 @@ export const MyCording = () => {
       <div className="cording_item">
         <div className="cording_item_left">
           <a href="https://sakodashiho.github.io/movie/" target="_blank">
-            <img src={Portfolio5} />
+            {/* <img src={Portfolio5} /> */}
           </a>
         </div>
         <div className="cording_item_right">
