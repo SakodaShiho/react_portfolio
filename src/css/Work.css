@@ -10,7 +10,7 @@
 }
 
 .tabs .MuiTab-textColorSecondary.Mui-selected {
-  color: #dcbdaf;
+  color: #dcbdaf !important;
 }
 
 .tabs .PrivateTabIndicator-colorSecondary-4 {
