@@ -2,7 +2,7 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import "../css/Work.css";
 import Portfolio1 from "../img/portfolio-image.jpg";
-import Portfolio2 from "../img/082.com.jpg";
+import Portfolio2 from "../img/082com.jpg";
 import Portfolio3 from "../img/mimamoru-image.png";
 import Portfolio4 from "../img/botani-image.jpg";
 import Portfolio5 from "../img/movie-image.jpg";
