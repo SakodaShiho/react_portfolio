@@ -46,7 +46,7 @@ export const MyCording = () => {
       <div className="cording_item">
         <div className="cording_item_left">
           <a href="https://oyatsu.herokuapp.com/" target="_blank">
-            {/* <img src={Portfolio2} /> */}
+            <img src={`${process.env.PUBLIC_URL}/img/082com.jpg`} />
           </a>
         </div>
         <div className="cording_item_right">
@@ -81,7 +81,7 @@ export const MyCording = () => {
             href="https://xd.adobe.com/view/8cba5861-c14a-4343-871b-46e6162b6f2a-d9e9/"
             target="_blank"
           >
-            {/* <img src={Portfolio3} /> */}
+            <img src={`${process.env.PUBLIC_URL}/img/mimamoru-image.png`} />
           </a>
         </div>
         <div className="cording_item_right">
@@ -111,7 +111,7 @@ export const MyCording = () => {
       <div className="cording_item">
         <div className="cording_item_left">
           <a href="https://bo-ta-ni.herokuapp.com/" target="_blank">
-            {/* <img src={Portfolio4} /> */}
+            <img src={`${process.env.PUBLIC_URL}/img/botani-image.jpg`} />
           </a>
         </div>
         <div className="cording_item_right">
@@ -141,7 +141,7 @@ export const MyCording = () => {
       <div className="cording_item">
         <div className="cording_item_left">
           <a href="https://sakodashiho.github.io/movie/" target="_blank">
-            {/* <img src={Portfolio5} /> */}
+            <img src={`${process.env.PUBLIC_URL}/img/movie-image.jpg`} />
           </a>
         </div>
         <div className="cording_item_right">
