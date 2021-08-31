@@ -76,6 +76,37 @@
   }
 }
 
+@media (min-width: 767px) and (max-width: 1150px) {
+  .tabs {
+    width: 90%;
+    padding: 0px;
+    margin: 0 auto;
+
+    .MuiBox-root {
+      padding: 1.5rem 0;
+      text-align: left;
+    }
+    .cording {
+      .cording_item {
+        display: block;
+        padding: 0.5rem;
+
+        .cording_item_left {
+          width: 100%;
+        }
+        img {
+          width: 100%;
+        }
+      }
+      .cording_item_right {
+        text-align: left;
+        margin-left: 0;
+        width: auto;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   .tabs {
     width: 100%;

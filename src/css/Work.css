@@ -83,6 +83,33 @@
   margin: 0.2rem;
 }
 
+@media (min-width: 767px) and (max-width: 1150px) {
+  .tabs {
+    width: 90%;
+    padding: 0px;
+    margin: 0 auto;
+  }
+  .tabs .MuiBox-root {
+    padding: 1.5rem 0;
+    text-align: left;
+  }
+  .tabs .cording .cording_item {
+    display: block;
+    padding: 0.5rem;
+  }
+  .tabs .cording .cording_item .cording_item_left {
+    width: 100%;
+  }
+  .tabs .cording .cording_item img {
+    width: 100%;
+  }
+  .tabs .cording .cording_item_right {
+    text-align: left;
+    margin-left: 0;
+    width: auto;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .tabs {
     width: 100%;
